@@ -65,7 +65,7 @@ if "relative_monthly_precipitation" in data:
     )
     figure_2.save("figures/relative_monthly_precipitation_Seattle.pdf")
 
-# Faceted bar plot of the relative montly precipitation per city,
+# Faceted bar plot of the relative monthly precipitation per city,
 if "relative_monthly_precipitation" in data and len(data.city.unique()) > 1:
     figure_3a = (
         ggplot(data=data)
