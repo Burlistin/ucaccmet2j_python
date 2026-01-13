@@ -8,7 +8,7 @@ yearly_total = 0
 #Loading CVS info
 with open('stations.csv', encoding='utf-8') as file:
     file.readline() #popping first line (column names) off the file
-    for line in file.readlines():
+    for line in file:
         line = line.strip()
         variables = line.split(',') #getting a list of all variables per observation
         results_dict[variables[0]] = {
