@@ -46,7 +46,7 @@ results = {
     'Seattle':
         {
             'station': 'GHCND:US1WAKG0038',
-            'state': 'WA',
+            'state': 'WA ',
             'total_monthly_precipitation': total_monthly_precipitation,
             'total_yearly_precipitation': total_yearly_precipitation,
             'relative_monthly_precipitation': relative_monthly_precipitation,

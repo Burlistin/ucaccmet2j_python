@@ -1,7 +1,7 @@
 {
     "Seattle": {
         "station": "GHCND:US1WAKG0038",
-        "state": "WA",
+        "state": "WA ",
         "total_monthly_precipitation": [
             1693,
             730,
